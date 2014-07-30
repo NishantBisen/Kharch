@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    tools:context="com.face.facedetectionexample.MainActivity$PlaceholderFragment" >
+
+    <FrameLayout
+        android:id="@+id/camera_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+        
+      
+         
+        
+    </FrameLayout>
+   
+    	<TextView
+        android:id="@+id/leftEye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:text="23.45,23.45"
+        />
+    
+        <TextView
+        android:id="@+id/rightEye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/leftEye"
+        android:text="-23.45,23.45"
+        />
+        
+         <TextView
+        android:id="@+id/mouth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/leftEye"
+        android:text="-23.45,23.45"
+        />
+         
+           <TextView
+        android:id="@+id/distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/mouth"
+       android:textSize="20sp"
+              
+        />
+         
+
+</RelativeLayout>
+
