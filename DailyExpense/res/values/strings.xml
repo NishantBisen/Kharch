@@ -5,8 +5,8 @@
     <string name="action_settings">Settings</string>
     <string name="data_label">Date:</string>
     <string name="todays_date_label">21-3-2014</string>
-    <string name="amount_label">Amount:</string>
-    <string name="spenton_label">Spent on:</string>
+    <string name="amount_label">Amount :</string>
+    <string name="spenton_label">Spent on :</string>
     <string name="radio_food">Food</string>
     <string name="radio_travel">Travel</string>
     <string name="radio_health">Health</string>
@@ -16,12 +16,47 @@
     <string name="radio_rent">Rent</string>
     <string name="radio_leisure">Leisure</string>
     <string name="radio_other">Other</string>
-    <string name="note_label">Note (Optional):</string>
-    <string name="note_editview_hint">Note</string>
+    <string name="note_label">Note :</string>
+    <string name="note_editview_hint">(Optional)</string>
     <string name="cancel_button">Cancel</string>
     <string name="save_button">Save</string>
     <string name="title_activity_list_expense">ListExpenseActivity</string>
     <string name="hello_world">Hello world!</string>
-    <string name="title_activity_expense_list">ExpenseListActivity</string>
+    <string name="title_activity_expense_list">ExpenseList</string>
+    <string name="title_activity_main">"Expense"</string>
+    
+    <!-- Action Bar -->
+    <string name="action_add_expense">Add Expense</string>
+    <string name="action_history">History</string>
+    
+     <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Report</item>
+        <item >Settings</item>
+        <item >Share</item>
+        <item >Report Bug</item>
+        <item >Rate App</item>
+        <item >Exit</item>
+        
+    </string-array>
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_report</item>
+        <item>@drawable/ic_action_settings</item>
+        <item>@drawable/ic_social_share</item>
+        <item>@drawable/ic_bug_report</item>
+        <item>@drawable/ic_rating_important</item>
+        <item>@drawable/ic_action_history</item>
+    </array>
+    
+    <string name="desc_list_item_icon">Item Icon</string>
+    
+    <string name="noexpense">No Expense Added</string>
+    
+    <string name="tap_to_add">Tap + to add Expense</string>
+     
+    
 
 </resources>

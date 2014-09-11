@@ -1,14 +1,22 @@
 package com.dailyexpense.model;
 
-import java.util.Date;
-
 public class Expense {
 	
 	private String date;
 	private double amount;
 	private String spentOn;
 	private String note;
+	private String month;
+	private int id;
 	
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
 	public Expense() {
 	}
 	
@@ -36,7 +44,14 @@ public class Expense {
 	public void setNote(String note) {
 		this.note = note;
 	}
-	
-	
 
+	public String getMonth() {
+		return month;
+	}
+
+	public void setMonth(String month) {
+		this.month = month;
+	}
+	
+	
 }
